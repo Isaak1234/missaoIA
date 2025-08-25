@@ -6,38 +6,38 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Em que ano o Brasil se tornou independente de Portugal?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "1822",
+            "1889"
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Quem foi o líder da Revolução Cubana?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Fidel Castro",
+            "Che Guevara"
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Qual imperador romano declarou o cristianismo como religião oficial do império?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Constantino",
+            "Nero"
         ]
     },
     {
-        enunciado: "Pergunta 4",
+        enunciado: "A queda de qual muro marcou o fim da Guerra Fria?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Muro da China",
+            "Muro de Berlim"
         ]
     },
     {
-        enunciado: "Pergunta 5",
+        enunciado: "Qual foi o principal motivo da Guerra do Vietnã?",
         alternativas: [
-            "Alternativa 1",
-            "Alternativa 2"
+            "Disputa por territórios",
+            "Luta contra a expansão do comunismo"
         ]
     }
 ];
@@ -46,5 +46,8 @@ let atual = 0;
 let perguntaAtual;
 
 function mostraPergunta(){
-    
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
 }
+
+mostraPergunta();
