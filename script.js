@@ -10,7 +10,7 @@ const perguntas = [
         alternativas: [
             {
             texto:"1822",
-            "1889"
+            afirmacao:"1889"
             }
         ]
     },
@@ -19,7 +19,7 @@ const perguntas = [
         alternativas: [
             {
             texto:"Fidel Castro",
-            "Che Guevara"
+            afirmacao:"Che Guevara"
             }
         ]
     },
@@ -32,7 +32,7 @@ const perguntas = [
         alternativas: [
             {
             texto:"Muro da China",
-            "Muro de Berlim"
+            afirmacao:"Muro de Berlim"
             }
         ]
     },
@@ -41,7 +41,7 @@ const perguntas = [
         alternativas: [
             {
             texto:"Disputa por territórios",
-            "Luta contra a expansão do comunismo"
+            afirmacao:"Luta contra a expansão do comunismo"
             }
         ]
     },
