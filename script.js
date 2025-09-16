@@ -8,38 +8,43 @@ const perguntas = [
     {
         enunciado: "Em que ano o Brasil se tornou independente de Portugal?",
         alternativas: [
-            "1822",
+            {
+            texto:"1822",
             "1889"
+            }
         ]
     },
     {
         enunciado: "Quem foi o líder da Revolução Cubana?",
         alternativas: [
-            "Fidel Castro",
+            {
+            texto:"Fidel Castro",
             "Che Guevara"
+            }
         ]
     },
     {
         enunciado: "Qual imperador romano declarou o cristianismo como religião oficial do império?",
         alternativas: [
-            "Constantino",
-            "Nero"
-        ]
-    },
+            {
     {
         enunciado: "A queda de qual muro marcou o fim da Guerra Fria?",
         alternativas: [
-            "Muro da China",
+            {
+            texto:"Muro da China",
             "Muro de Berlim"
+            }
         ]
     },
     {
         enunciado: "Qual foi o principal motivo da Guerra do Vietnã?",
         alternativas: [
-            "Disputa por territórios",
+            {
+            texto:"Disputa por territórios",
             "Luta contra a expansão do comunismo"
+            }
         ]
-    }
+    },
 ];
 
 let atual = 0;
